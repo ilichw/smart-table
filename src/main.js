@@ -79,7 +79,8 @@ const applyFiltering = initFiltering(sampleTable.filter.elements, {
     searchBySeller: indexes.sellers
 });
 
-const applySearching = initSearching(sampleTable.search.search);
+// const applySearching = initSearching(sampleTable.search.search);
+const applySearching = initSearching('search');
 
 const appRoot = document.querySelector('#app');
 appRoot.appendChild(sampleTable.container);
